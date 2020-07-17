@@ -7,21 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0453F2691F02C7B200D61C03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0453F2681F02C7B200D61C03 /* Images.xcassets */; };
+		0487A6DD1F332AD400F1BA11 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487A6DC1F332AD400F1BA11 /* SwiftyJSON.swift */; };
 		04EF0CD71EC1CB1F002FB90D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF0CD61EC1CB1F002FB90D /* AppDelegate.swift */; };
 		04EF0CD91EC1CB1F002FB90D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF0CD81EC1CB1F002FB90D /* ViewController.swift */; };
 		04EF0CDC1EC1CB1F002FB90D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EF0CDA1EC1CB1F002FB90D /* Main.storyboard */; };
 		04EF0CDE1EC1CB1F002FB90D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EF0CDD1EC1CB1F002FB90D /* Assets.xcassets */; };
 		04EF0CE11EC1CB1F002FB90D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EF0CDF1EC1CB1F002FB90D /* LaunchScreen.storyboard */; };
+		04EF0CEB1EC1CE99002FB90D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF0CEA1EC1CE99002FB90D /* DetailViewController.swift */; };
+		04EF0CED1EC1CEE2002FB90D /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF0CEC1EC1CEE2002FB90D /* Links.swift */; };
+		04EF0CF11EC1CF8F002FB90D /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF0CF01EC1CF8F002FB90D /* Link.swift */; };
+		04EF0D261EC2DEC0002FB90D /* SideScrollSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF0D251EC2DEC0002FB90D /* SideScrollSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04EF0CD31EC1CB1F002FB90D /* SwiftyJson Only01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftyJson Only01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		040A40871F33E99100CD3109 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		0453F2681F02C7B200D61C03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0487A6DC1F332AD400F1BA11 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		04EF0CD31EC1CB1F002FB90D /* アニマルNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "アニマルNote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EF0CD61EC1CB1F002FB90D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04EF0CD81EC1CB1F002FB90D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04EF0CDB1EC1CB1F002FB90D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04EF0CDD1EC1CB1F002FB90D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04EF0CE01EC1CB1F002FB90D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04EF0CE21EC1CB1F002FB90D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EF0CEA1EC1CE99002FB90D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		04EF0CEC1EC1CEE2002FB90D /* Links.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		04EF0CF01EC1CF8F002FB90D /* Link.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		04EF0D251EC2DEC0002FB90D /* SideScrollSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideScrollSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,18 +48,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040A40861F33E99100CD3109 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				040A40871F33E99100CD3109 /* libsqlite3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		04EF0CCA1EC1CB1F002FB90D = {
 			isa = PBXGroup;
 			children = (
 				04EF0CD51EC1CB1F002FB90D /* SwiftyJson Only01 */,
 				04EF0CD41EC1CB1F002FB90D /* Products */,
+				040A40861F33E99100CD3109 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		04EF0CD41EC1CB1F002FB90D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04EF0CD31EC1CB1F002FB90D /* SwiftyJson Only01.app */,
+				04EF0CD31EC1CB1F002FB90D /* アニマルNote.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,8 +77,14 @@
 			isa = PBXGroup;
 			children = (
 				04EF0CD61EC1CB1F002FB90D /* AppDelegate.swift */,
+				0487A6DC1F332AD400F1BA11 /* SwiftyJSON.swift */,
 				04EF0CD81EC1CB1F002FB90D /* ViewController.swift */,
 				04EF0CDA1EC1CB1F002FB90D /* Main.storyboard */,
+				0453F2681F02C7B200D61C03 /* Images.xcassets */,
+				04EF0D251EC2DEC0002FB90D /* SideScrollSegue.swift */,
+				04EF0CF01EC1CF8F002FB90D /* Link.swift */,
+				04EF0CEC1EC1CEE2002FB90D /* Links.swift */,
+				04EF0CEA1EC1CE99002FB90D /* DetailViewController.swift */,
 				04EF0CDD1EC1CB1F002FB90D /* Assets.xcassets */,
 				04EF0CDF1EC1CB1F002FB90D /* LaunchScreen.storyboard */,
 				04EF0CE21EC1CB1F002FB90D /* Info.plist */,
@@ -81,7 +109,7 @@
 			);
 			name = "SwiftyJson Only01";
 			productName = "SwiftyJson Only01";
-			productReference = 04EF0CD31EC1CB1F002FB90D /* SwiftyJson Only01.app */;
+			productReference = 04EF0CD31EC1CB1F002FB90D /* アニマルNote.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,6 +124,8 @@
 				TargetAttributes = {
 					04EF0CD21EC1CB1F002FB90D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MYPKCM8NU2;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -123,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04EF0CE11EC1CB1F002FB90D /* LaunchScreen.storyboard in Resources */,
+				0453F2691F02C7B200D61C03 /* Images.xcassets in Resources */,
 				04EF0CDE1EC1CB1F002FB90D /* Assets.xcassets in Resources */,
 				04EF0CDC1EC1CB1F002FB90D /* Main.storyboard in Resources */,
 			);
@@ -137,6 +168,11 @@
 			files = (
 				04EF0CD91EC1CB1F002FB90D /* ViewController.swift in Sources */,
 				04EF0CD71EC1CB1F002FB90D /* AppDelegate.swift in Sources */,
+				04EF0CEB1EC1CE99002FB90D /* DetailViewController.swift in Sources */,
+				04EF0CED1EC1CEE2002FB90D /* Links.swift in Sources */,
+				0487A6DD1F332AD400F1BA11 /* SwiftyJSON.swift in Sources */,
+				04EF0D261EC2DEC0002FB90D /* SideScrollSegue.swift in Sources */,
+				04EF0CF11EC1CF8F002FB90D /* Link.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +285,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "SwiftyJson Only01/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "club.animalnoteclub.SwiftyJson-Only01";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "アニマルNote";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -260,10 +298,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "SwiftyJson Only01/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "club.animalnoteclub.SwiftyJson-Only01";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "アニマルNote";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -286,6 +326,7 @@
 				04EF0CE71EC1CB1F002FB90D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "04EF0CD21EC1CB1F002FB90D"
-               BuildableName = "SwiftyJson Only01.app"
+               BuildableName = "&#x30a2;&#x30cb;&#x30de;&#x30eb;Note.app"
                BlueprintName = "SwiftyJson Only01"
                ReferencedContainer = "container:SwiftyJson Only01.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04EF0CD21EC1CB1F002FB90D"
-            BuildableName = "SwiftyJson Only01.app"
+            BuildableName = "&#x30a2;&#x30cb;&#x30de;&#x30eb;Note.app"
             BlueprintName = "SwiftyJson Only01"
             ReferencedContainer = "container:SwiftyJson Only01.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04EF0CD21EC1CB1F002FB90D"
-            BuildableName = "SwiftyJson Only01.app"
+            BuildableName = "&#x30a2;&#x30cb;&#x30de;&#x30eb;Note.app"
             BlueprintName = "SwiftyJson Only01"
             ReferencedContainer = "container:SwiftyJson Only01.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04EF0CD21EC1CB1F002FB90D"
-            BuildableName = "SwiftyJson Only01.app"
+            BuildableName = "&#x30a2;&#x30cb;&#x30de;&#x30eb;Note.app"
             BlueprintName = "SwiftyJson Only01"
             ReferencedContainer = "container:SwiftyJson Only01.xcodeproj">
          </BuildableReference>
